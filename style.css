@@ -40,16 +40,16 @@ header{
 }
 
 .src1 {
-  background-image: url(../MyWebPage/img/MtFuji/fuji01.jpg);
+  background-image: url(./img/MtFuji/fuji01.jpg);
  }
 .src2 {
-  background-image: url(../MyWebPage/img/MtFuji/fuji02.jpg);
+  background-image: url(./img/MtFuji/fuji02.jpg);
   }
 .src3 {
-  background-image: url(../MyWebPage/img/MtFuji/fuji03.jpg);
+  background-image: url(./img/MtFuji/fuji03.jpg);
   }
 .src4 {
-  background-image: url(../MyWebPage/img/MtFuji/fuji04.jpg);
+  background-image: url(./img/MtFuji/fuji04.jpg);
   }
 
 @keyframes image-switch-animation {
