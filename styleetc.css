@@ -1,0 +1,99 @@
+@charset "utf-8";
+h1{
+  font-family: Yu Mincho;
+  text-align: center;
+}
+#title {
+  font-family: Yu Mincho;
+  text-align: center;
+  padding:0px 12px;
+}
+.carousel{
+  width:100%;
+  margin:16px;
+}
+
+.container{
+  margin:0 auto;
+  width: 50%;
+  overflow:hidden;
+  position:relative;
+}
+ul{
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  height:100%;
+  display:flex;
+  
+}
+li{
+  height:100%;
+  min-width:100%;
+}
+li img{
+  width:100%;
+  height:480px;
+  object-fit:cover;
+  border-radius:8px;
+  
+}
+li p{
+  margin:0px;
+  font-family: Yu Mincho;
+  border:6px black double;
+  padding:6px;
+  border-radius: 8px;
+}
+#prev,#next{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  border:none;
+  background:rgba(0,0,0,0.5);
+  color:white;
+  font-size:24px;
+  padding:0px 8px 4px;
+  cursor:pointer;
+}
+#prev:hover,#next:hover{
+  opacity:0.5;
+}
+#prev{
+  left:0px;
+}
+#next{
+  right:0px;
+}
+.hidden{
+  display:none;
+}
+nav{
+  text-align:center;
+  margin-top:16px;
+  
+  
+}
+nav button{
+ width:16px;
+ height:16px;
+ margin:0px 8px 0px;
+  border:1px solid lightgray;
+  background-color:lightgray;
+  border-radius: 50%;
+  cursor:pointer;
+}
+button.current{
+  background-color:gray;
+}
+footer{
+  text-align: center;
+}
+footer a{
+  display:block;
+  background:navy;
+  color:white;
+  margin:12px auto;
+  border:2px solid gray;
+  width:60px;
+}
