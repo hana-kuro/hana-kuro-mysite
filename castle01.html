@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Castle Myfavorite JS not use</title>
+  <link rel="stylesheet" href="stylecastle02.css">
+</head>
+
+<body>
+  <h1>個人的に好きな城跡</h1>
+  <p id="title">いままでにhana_kuroが行った城跡の中で、好きなものを３点紹介しています。</p>
+  <div class="carousel">
+    <div class="contains">
+      <input class="slide_select" type="radio" id="SlideA" name="slide_check" checked />
+      <input class="slide_select" type="radio" id="SlideB" name="slide_check" />
+      <input class="slide_select" type="radio" id="SlideC" name="slide_check" />
+      <div class="slide">
+        <div class="scroll_controler">
+
+          <label class="scroll_button scroll_prev" for="SlideC"></label>
+
+          <label class="scroll_button scroll_next" for="SlideB"></label>
+        </div>
+        <div class="imge">
+
+          <img src="./img/MyCastle/mihara_castle.jpg">
+          <p>三原城(広島県)<br>石垣が美しい。小早川隆景の居城。城跡内にJRの駅がある珍しい（？）構造</p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="controler_scroll">
+          <label class="scroll_button scroll_prev" for="SlideA"></label>
+          <label class="scroll_button scroll_next" for="SlideC"></label>
+        </div>
+        <div class="imge">
+          <img src="./img/MyCastle/nagahama_castle.jpg">
+          <p>長浜城址(静岡県)
+            <br>北条水軍の拠点。海にせり出した場所にあり奥駿河湾（内浦湾）を一望できる。
+          </p>
+        </div>
+
+      </div>
+      <div class="slide">
+        <div class="controler_scroll">
+          <label class="scroll_button scroll_prev" for="SlideB"></label>
+          <label class="scroll_button scroll_next" for="SlideA"></label>
+        </div>
+        <div class="imge">
+
+          <img src="./img/MyCastle/takatenjin_castle.JPG">
+          <p>高天神城(静岡県)<br>武田家、徳川家が取り合った城（砦）。戦略上の拠点として重要なところであったと感じられる場所</p>
+        </div>
+      </div>
+
+      <div class="move_controler">
+
+        <label class="button_move" for="SlideA"></label>
+        <label class="button_move" for="SlideB"></label>
+        <label class="button_move" for="SlideC"></label>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <a href="index.html">back</a>
+    <small>&copy 2024 hana_kuro</small>
+  </footer>
+</body>
+
+</html>

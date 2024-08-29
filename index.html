@@ -1,15 +1,158 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Site</title>
+  <title>hana_kuro profile</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-  <h1>My site</h1>
-<p>hana_kuroのサイトです。</p>
-<img src="mtfuji.jpg" alt="" width="320" height="100%">
-<p>富士山</p>
+  <header>
+    <div class="top">
+      <img src="../MyWebPage/img/はなIcon01_Ssize.jpg" alt="">
+      <div class="hmenu">
+        <div class="pc-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#prof">Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#others">Others</a></li>
+          </ul>
+        </div>
+        <div class="sp-menu">
+          <p>MENU</p>
+          <span class="material-icons" id="open">menu</span>
+          <span class="material-icons" id="close">close</span>
+        </div>
+      </div>
+    </div>
+    <div class="overlay">
+      <ul>
+        <li><a id="close1" href="#home">Home</a></li>
+        <li><a id="close2" href="#prof">Profile</a></li>
+        <li><a id="close3" href="#contact">Contact</a></li>
+        <li><a id="close4" href="#others">Others</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="container">
+        <div class="img src1"></div>
+        <div class="img src2"></div>
+        <div class="img src3"></div>
+        <div class="img src4"></div>
+
+      </div>
+      <div class="agenda">
+        <h2>－ Home －</h2>
+        <h3>hana_kuro <span>と申します。</span></h3>
+        <ul>
+          <li>５０代男性、静岡県在住、真面目が取り柄です。本業の傍ら、副業としてお手伝いさせていただければと思います。</li>
+          <li>作業の品質はもちろんですが、スピード重視・納期厳守をモットーに仕事をさせていただきます。</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="prof">
+      <h2>－ Profile －</h2>
+      <div class="accordion">
+        <div class="option">
+          <input type="checkbox" id="toggle1" class="toggle">
+          <label for="toggle1" class="title">
+            <h3>◇学歴・職歴◇</h3>
+          </label>
+          <ul class="content">
+            <li>理工学系大学院卒。某電機メーカー勤務。ハードウェア技術者として勤続２９年</li>
+            <li>副業でCrowd Works及びCoconalaに登録</li>
+            <li>＠2024年</li>
+          </ul>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="toggle2" class="toggle">
+          <label for="toggle2" class="title">
+            <h3>◇スキル◇</h3>
+          </label>
+          <ul class="content">
+            <li>Ｗｏｒｄ、ＰｏｗｅｒＰｏｉｎｔを用いた資料作成（官公庁向けの客先説明資料作成を１０年以上）</li>
+            <li>Ｅｘｃｅｌを用いたデータ入力・解析（大量のデータを用いた解析・分析を１０年以上。ＶＢＡも使用可)</li>
+            <li>電子回路の設計（ＤＣＤＣ回路、アンプ回路の設計・検証を１０年以上）</li>
+            <li>ＨＴＭＬ、ＣＳＳ、ＪａｖａＳｃｒｉｐｔのプログラミング言語習得</li>
+          </ul>
+        </div>
+
+        <div class="option">
+          <input type="checkbox" id="toggle3" class="toggle">
+          <label for="toggle3" class="title">
+            <h3>◇実績◇</h3>
+          </label>
+          <ul class="content">
+            <li>Crowd Worksにて１５件の受注及び納品の実績あり。<br>
+              作業内容：Web記事作成、資料作成、マインドマップ作成</li>
+          </ul>
+        </div>
+
+        <div class="option">
+          <input type="checkbox" id="toggle4" class="toggle">
+          <label for="toggle4" class="title">
+            <h3>◇その他◇</h3>
+          </label>
+          <ul class="content">
+            <li>お仕事をお受けする際の金額、納期はご相談ください。<br>
+              例）パワポ資料作成なら・・・（あくまでも例です）</li>
+            <li>雛型ありで￥１００／１枚～、０．５日／１枚～</li>
+            <li>雛型なしで￥５００／１枚～、２．０日／１枚～</li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
+    <section id="contact">
+      <h2>－ Contact －</h2>
+      <div class="contact">
+        <a href="mailto:hanakuro20180118@gmail.com"><img src="../MyWebPage/img/はなicon02.jpg" alt=""></a>
+        <p>E-MAIL</p>
+      </div>
+    </section>
+
+    <section id="others">
+      <h2>－ Others －</h2>
+      <h3>hana_kuroの趣味</h3>
+      <h4 class="hide-text">仕事とは関係ありません。ご興味のある方はどうぞ</h4>
+      <div class="others-pc">
+        <div class="others-content">
+          <a href="castle01.html"><img src="../MyWebPage/img/お城icon01.jpg" alt=""></a>
+          <p>城跡巡り</p>
+          <p class="hide-text">『天守閣の無い城跡（砦）』</p>
+        </div>
+        <div class="others-content">
+          <a href="etc.html"><img src="../MyWebPage/img/絵画.jpg" alt=""></a>
+          <p>西洋絵画鑑賞</p>
+          <p class="hide-text">『ゴシックから印象派まで』</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footermenu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#prof">Profile</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#others">Others</a></li>
+      </ul>
+    </div>
+    <small>&copy 2024 hana_kuro</small>
+    </div>
+  </footer>
+  <script src="main js"></script>
 </body>
+
 </html>
